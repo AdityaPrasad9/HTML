@@ -1,0 +1,209 @@
+/* CSS RESET  */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* navigation bar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+/* logo and image */
+#logo{
+    margin: 13px 35px;
+}
+ #logo img{
+    margin: 3px 6px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    
+}
+#navbar ul{
+    display: flex;
+    font-family: 'DM Serif Display', serif;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 23px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(19, 17, 17);
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 576px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Serif',serif;
+    color: white;
+    
+}
+#home::before{
+    content: "";
+    background:url("https://i.ibb.co/hcZdgWk/indian-7405202-1280.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 678px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+/* services section  */
+.services-container{
+    height: 530px;
+}
+.services-container::before{
+    content: "";
+    position: absolute;
+    background:url("https://i.ibb.co/k6yH2vQ/istockphoto-1054228718-1024x1024.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 530px;
+    z-index: -1;
+    opacity: 0.5;
+}
+#services{
+    margin: 28px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid red;
+    padding: 9px;
+    margin-top: -22px;
+    margin-bottom: 34px;
+    margin-left: 12px;
+    border-radius: 23px;
+    background: linear-gradient(rgb(232, 232, 105),pink);
+    
+}
+#services .box img{
+    border: 2px solid red;
+    height: 165px;
+    display: block;
+    margin: auto;
+    
+}
+#sevices .box p{
+    font-family: 'DM Serif Display', serif;
+}
+/* client-section  */
+
+#client-section{
+       height: 344px;
+     /* position: relative; */
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url("https://i.ibb.co/wgy5kNZ/almonds-7405204-1280.jpg" ) no-repeat center/cover;
+    width: 100%;
+    height: 344px;
+    z-index: -1;
+    opacity: 0.7;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 122px;
+}
+.client-item{
+    padding: 34px;
+}
+/* contact section  */
+#contact{
+  /* position: relative; */
+  height: 496px;
+}
+#contact::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 496px;
+    z-index: -1;
+    opacity: 0.7;
+    background: url("https://i.ibb.co/pyHHGh1/istockphoto-1053986724-1024x1024.jpg") no-repeat center/cover;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box text area{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'DM Serif Display', serif;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+/* utility classes  */
+.h-primary{
+    font-size:3.4rem;
+    padding: 10px;
+    font-family: 'DM Serif Display', serif;
+}
+.h-secondary{
+    font-size: 2.4rem;
+    padding:6px;
+    font-family: 'DM Serif Display', serif;
+}
+p{  
+    font-family: 'DM Serif Display', serif;
+    color: rgb(11, 11, 11);
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid rgb(243, 240, 240);
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
