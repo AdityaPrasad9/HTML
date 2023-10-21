@@ -33,7 +33,7 @@ html{
  #services .box img{
     width: 185px;
  }
- .services-container::before{
+ #services-container::before{
     height: 1624px;
  }
 
