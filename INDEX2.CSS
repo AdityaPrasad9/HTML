@@ -80,10 +80,10 @@ html{
     opacity: 0.89;
 }
 /* services section  */
-.services-container{
+#services-container{
     height: 530px;
 }
-.services-container::before{
+#services-container::before{
     content: "";
     position: absolute;
     background:url("https://i.ibb.co/k6yH2vQ/istockphoto-1054228718-1024x1024.jpg") no-repeat center center/cover;
