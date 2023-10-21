@@ -1,7 +1,7 @@
 /* Navigation */
 #navbar{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     position: sticky;
     top: 0px;
 }
